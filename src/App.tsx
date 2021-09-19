@@ -1,12 +1,11 @@
-import React from 'react';
-import './App.css';
+import Routes from './Routes';
 
-function App() {
+const App = (): JSX.Element => {
   return (
-    <div className="App">
-      
+    <div className="bg-purple-300">
+      <Routes />
     </div>
   );
-}
+};
 
 export default App;
