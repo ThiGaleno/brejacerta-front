@@ -11,7 +11,6 @@ const Header = (): JSX.Element => {
       <p>Breja Certa</p>
       <div className="flex">
         <ProfileSettings />
-        <ProfileSettings />
       </div>
       {/* <img src={} alt="" /> */}
     </nav>

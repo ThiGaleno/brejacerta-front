@@ -7,7 +7,7 @@ const ProfileSettings = (): JSX.Element => {
       <Menu.Button>
         <IoPersonCircleSharp className="text-2xl" />
       </Menu.Button>
-      <Menu.Items className="absolute right-0 bg-gray-light rounded p-2 ">
+      <Menu.Items className="absolute right-0 top-8 bg-gray-light rounded p-2 ">
         <Menu.Item>
           {({ active }) => (
             <a
