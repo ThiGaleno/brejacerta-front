@@ -12,15 +12,7 @@ const Home = (): JSX.Element => {
   const [beers, setBeers] = useState([]);
 
   useEffect(() => {
-    Api.get('http://localhost.com:3000/api/', {
-      // headers: {
-      //   'Content-Type': 'application/json',
-      //   'Access-Control-Allow-Origin': '*',
-      //   'Access-Control-Allow-Credentials': true,
-      //   'Access-Control-Allow-Methods': '*',
-      //   // Authorization: `Bearer ${token}`,
-      // },
-    }).then((response) => {
+    Api.get('/').then((response) => {
       console.log(response, 'lkjlkj');
       // if (response.statusText === 'OK') {
       //   setBeers(response.data);

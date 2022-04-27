@@ -6,10 +6,10 @@ const token =
 export const Api = axios.create({
   baseURL: 'http://localhost/api',
   headers: {
-    'Content-Type': 'application/json',
     'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Credentials': true,
-    'Access-Control-Allow-Methods': '*',
+    // 'Content-Type': 'application/json',
+    // 'Access-Control-Allow-Credentials': true,
+    // 'Access-Control-Allow-Methods': '*',
     Authorization: `Bearer ${token}`,
   },
 });
