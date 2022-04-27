@@ -16,3 +16,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tooltip {
+  @apply relative;
+}
+
+.tooltip .hidden{
+  @apply  py-1 z-10 absolute text-sm bg-white px-2 rounded text-gray-dark bg-opacity-80 border 
+}
+.tooltip:hover .hidden{
+  @apply block;
+}

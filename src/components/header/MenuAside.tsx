@@ -2,7 +2,7 @@ const MenuAside = (): JSX.Element => {
   return (
     <aside>
       <ul>
-        <li>asdf</li>
+        <li>asdfW</li>
       </ul>
     </aside>
   );
